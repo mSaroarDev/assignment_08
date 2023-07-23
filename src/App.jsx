@@ -1,18 +1,18 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import ExpensePage from "./pages/ExpensePage";
-import HomePage from "./pages/HomePage";
-import IncomePage from "./pages/IncomePage";
 
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/income" element={<IncomePage />} />
           <Route path="/expense" element={<ExpensePage />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+<h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
     </div>
   );
 };
