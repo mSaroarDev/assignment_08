@@ -1,3 +1,4 @@
+import MasterLayout from "./layout/MasterLayout";
 
 const App = () => {
   return (
@@ -10,9 +11,7 @@ const App = () => {
         </Routes>
       </BrowserRouter> */}
 
-<h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <MasterLayout/>
     </div>
   );
 };
